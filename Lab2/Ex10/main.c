@@ -311,7 +311,7 @@ int main(void)
       }
     }
 
-    // shift letter A one column (Timer 3, from lab10)
+    // shift letter A one column (Timer 3,)
     if (timer3_flag == 1) {
       setTimer3(150);
       updateAnimation();
